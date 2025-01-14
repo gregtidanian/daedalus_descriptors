@@ -95,7 +95,7 @@ signal_in
 
 i2c_sda
 
-i2c_scle
+i2c_scl
 
 pwm
 
