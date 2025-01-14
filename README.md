@@ -12,7 +12,7 @@ microcontroller
 
 sensor
 
-LED
+led
 
 voltage_reference_source
 
@@ -53,23 +53,23 @@ SWD
 ## External connection
 ### external_mate:
 
-SWD2030NL
+swd2030nl
 
-JST
+jst
   
 ## Passive component specification
 ### pull_up_resistor:
 
-U1:45, VDD
+u1:45, vdd
 
 ### pull_down_resistor:
 
-Q6:1, GND
+q6:1, gnd
 
 ## When describing a component such as a sensor
 ### decoupling_capacitor:
 
-C9
+c9
 
 # NET-LEVEL DESCRIPTORS
 
@@ -82,22 +82,22 @@ ground
 
 signal
 
-PWR_MAIN
+pwr_main
 
 GND
 
-GNDREF
+gnd_ref
 
-SIGNAL_IN
+signal_in
 
 ## Type of signal on the net
 ### signal_type:
 
-I2C_SDA
+i2c_sda
 
-I2C_SCL
+i2c_scle
 
-PWM
+pwm
 
 digital_input
 
@@ -105,34 +105,34 @@ digital_output
 
 analog
 
-USB_Dplus
+usb_dplus
 
-USB_Dminus
+usb_dminus
 
 ## If the net is part of a specific communication bus
 ### bus_type:
 
-I2C
+i2c
 
-SPI
+spi
 
-UART
+uart
 
 ## Voltage range on the net
 ### voltage_range:
 
-3_3V
+3_3v
 
-1_8-3_3V
+1_8_to_3_3v
 
-5V
+5v
 
 ## Frequency of the net for clock signals
 ### frequency:
 
-8MHz
+8_megahz
 
-32kHz
+32_khz
 
 ## Impedance controlled
 ### impedance_controlled:
@@ -144,11 +144,11 @@ no
 ## List of connected components from the net, this can describe the node
 ### connected_components:
 
-REF3020.2
+ref3020.2
 
 C6
 
-STM32.PA5
+stm32.pa5
 
 ## Describes the role of the signal in the circuit
 ### function:
@@ -187,6 +187,6 @@ no
 ## Describes the source of the net's signal (less critical)
 ### source_component:
 
-REF3020.OUT
+ref3020.out
 
-STM32.PB6
+stm32.PB6
